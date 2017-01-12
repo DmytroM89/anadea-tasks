@@ -73,8 +73,18 @@ input:checked + .slider:before {
     transform: translateX(17px);
 }
 
-/* Dropdown */
+/* Navbar Dropdown */
 li.dropdown {
+    font-weight: 600;
+}
+
+.nav > li > a {
+    padding: 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.search-btn {
     font-weight: 600;
 }
 
