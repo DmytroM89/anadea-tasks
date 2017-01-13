@@ -6,6 +6,7 @@
 
 body {
     padding-top: 50px;
+    background-image: url("http://pattern4site.ru/images/fabric/_thumb/19-tekstura-belaya-tkan.png")
 }
 
 .navbar-inverse .navbar-brand {
@@ -180,6 +181,10 @@ input.form-control, select.form-control {
     margin-bottom: 10px;
 }
 
+.img-wrapper-sidebar img{
+    width: 100%;
+}
+
 /* Masonry */
 .masonry {
     -webkit-column-count: 3;
@@ -194,7 +199,8 @@ input.form-control, select.form-control {
 
 .item {
     display: inline-block;
-    background: #fff;
+    background-color: #fff;
+    margin-bottom: 10px;
 /*    width: 300px;*/
 
 }
@@ -207,7 +213,7 @@ input.form-control, select.form-control {
     position: relative;
     padding: 0;
     border-radius: 0;
-    margin-bottom: 10px;
+    margin: 0;
 }
 
 .img-wrapper-main {
@@ -224,6 +230,15 @@ input.form-control, select.form-control {
     display: block;
 }
 
+.img-mini {
+    width: 100%;
+}
+
+.item-mini {
+    width: 20%;
+    float: left;
+}
+
 .label-danger  {
     position: absolute;
     right: 0;
@@ -231,6 +246,10 @@ input.form-control, select.form-control {
     background-color: #fe3029;
     font-size: 16px;
     border-radius: 0;
+}
+
+.caption {
+    clear: both;
 }
 
 .caption h3 {
@@ -248,6 +267,17 @@ input.form-control, select.form-control {
     color: #aeaeae;
 }
 
-/* Blocks masonry */
+/* Highlighting Item */
+.highlight {
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.highlight > .thumbnail {
+    background-color: #fff5ca;
+}
+
+.highlight > .thumbnail .info {
+    background-color: #f5ecc3;
+}
 
 
