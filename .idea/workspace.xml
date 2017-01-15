@@ -86,6 +86,9 @@
       </GulpfileState>
     </gulpfiles>
   </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
@@ -215,6 +218,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="ed72fdac-2e0a-4353-8659-3f7d90d2f225" name="Default" comment="" />
@@ -222,7 +228,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1484488731710</updated>
-      <workItem from="1484488733182" duration="12132000" />
+      <workItem from="1484488733182" duration="12301000" />
     </task>
     <task id="LOCAL-00001" summary="edit gitignore file">
       <created>1484503102385</created>
@@ -242,7 +248,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12132000" />
+    <option name="totallyTimeSpent" value="12301000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
