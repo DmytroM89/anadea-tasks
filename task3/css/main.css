@@ -65,6 +65,7 @@ body {
     color: #fff;
 }
 
+
 .my-info {
     padding-left: 2px !important;
     padding-right: 5px !important;
@@ -110,6 +111,11 @@ body {
     text-decoration: none;
     background-color: transparent;
     color: #bbcddc;
+}
+
+.nav-pills .active>a {
+    color: #bbcddc !important;
+    background: none !important;
 }
 
 .settings {
