@@ -7,6 +7,12 @@ $(document).ready(function () {
        }
    });
 
+$(document).mouseup(function (e) {
+    var blockInfo = $('.info');
+    if (blockInfo.has(e.target).length === 0){
+        blockInfo.hide();
+    }
+});
     
 
 });
