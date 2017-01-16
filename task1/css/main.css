@@ -46,6 +46,7 @@ body {
     background-repeat: no-repeat;
     margin-left: 5px;
     margin-right: 5px;
+    cursor: pointer;
 }
 
 /* Hide default HTML checkbox */
@@ -97,7 +98,8 @@ div.dropdown {
     color: #333;
 }
 
-.dropdown > a:hover {
+
+.dropdown > a:hover, .dropdown > a:focus  {
     text-decoration: none;
 }
 
@@ -106,13 +108,42 @@ div.dropdown {
     width: 100%;
 }
 
-select:valid {
-    color: #acacac;
+.search-btn:hover {
+    color: #fff;
+    background-color: #d9534f;
 }
 
-input.form-control, select.form-control {
+.rubric {
+    cursor: pointer;
+    text-align: left
+}
+
+.rubric .caret {
+    position: relative;
+    top: 9px;
+}
+
+.rubric + ul {
+    width: 100%;
+}
+
+.rubric:hover, .rubric:focus, .rubric:active {
+    background-color: #fff;
+}
+
+.btn-default.active, .btn-default:active, .btn-default:focus, .open>.dropdown-toggle.btn-default {
+    background-color: #fff;
+}
+
+.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open>.dropdown-toggle.btn-default.focus, .open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover {
+    background-color: #fff;
+}
+
+input.form-control, .rubric {
     width: 100% !important;
 }
+
+
 
 /* Flex Container */
 

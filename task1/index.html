@@ -46,12 +46,19 @@
                     <input type="text" class="form-control" placeholder="What are you looking?">
                 </div>
                 <div class="flex-item col-lg-3 col-md-3 col-sm-6 col-xs-3">
-                    <select class="form-control btn-default" id="select">
-                        <option value="" hidden>Choose rubric</option>
-                        <option value="1">Option 1</option>
-                        <option value="2">Option 2</option>
-                        <option value="3">Option 3</option>
-                    </select>
+                    <div class="dropdown">
+                      <button class="rubric btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                        Choose rubric
+                        <span class="caret pull-right"></span>
+                      </button>
+                      <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                      </ul>
+                    </div>
                 </div>
                 <div class="flex-item col-lg-1 col-md-1 col-sm-6 col-xs-1">
                     <button type="submit" class="search-btn btn btn-default pull-right">Search</button>
@@ -73,7 +80,7 @@
                                 <div class="img-wrapper-main">
                                     <div class="img-wrapper">
                                         <span class="label label-danger">$2,500</span>
-                                        <img src="img/content/land-rover-dc100-sport-concept.jpg" alt="...">
+                                        <a href=""><img src="img/content/land-rover-dc100-sport-concept.jpg" alt="..."></a>
                                     </div>
                                 </div>
                                 <div class="caption">
@@ -91,7 +98,7 @@
                                 <div class="img-wrapper-main">
                                     <div class="img-wrapper">
                                         <span class="label label-danger">$1,580,000</span>
-                                        <img src="img/content/maserati-granturismo-s-mc-4374.jpg" alt="...">
+                                        <a href=""><img src="img/content/maserati-granturismo-s-mc-4374.jpg" alt="..."></a>
                                     </div>
                                 </div>
                                 <div class="caption">
@@ -109,22 +116,22 @@
                                 <div class="img-wrapper-main">
                                     <div class="img-wrapper">
                                         <span class="label label-danger">$1,580,000</span>
-                                        <img src="img/content/2014-g-power-bmw-m4-f82-4852%20.jpg" alt="...">
+                                        <a href=""><img src="img/content/2014-g-power-bmw-m4-f82-4852%20.jpg" alt="..."></a>
                                         <div class="img-mini">
                                             <div class="item-mini">
-                                                <img src="img/content/1970-dodge-coronet-coupe-dodzh.jpg" alt="">
+                                                <a href=""><img src="img/content/1970-dodge-coronet-coupe-dodzh.jpg" alt=""></a>
                                             </div>
                                             <div class="item-mini">
-                                                <img src="img/content/infiniti-qx70-5-0-6381.jpg" alt="">
+                                                <a href=""><img src="img/content/infiniti-qx70-5-0-6381.jpg" alt=""></a>
                                             </div>
                                             <div class="item-mini">
-                                                <img src="img/content/land-rover-dc100-sport-concept.jpg" alt="">
+                                                <a href=""><img src="img/content/land-rover-dc100-sport-concept.jpg" alt=""></a>
                                             </div>
                                             <div class="item-mini">
-                                                <img src="img/content/infiniti-qx70-5-0-6381.jpg" alt="">
+                                                <a href=""><img src="img/content/infiniti-qx70-5-0-6381.jpg" alt=""></a>
                                             </div>
                                             <div class="item-mini">
-                                                <img src="img/content/2014-g-power-bmw-m4-f82-4852%20.jpg" alt="">
+                                                <a href=""><img src="img/content/2014-g-power-bmw-m4-f82-4852%20.jpg" alt=""></a>
                                             </div>
                                         </div>
                                     </div>
@@ -144,7 +151,7 @@
                                 <div class="img-wrapper-main">
                                     <div class="img-wrapper">
                                         <span class="label label-danger">$1,580,000</span>
-                                        <img src="img/content/maserati-granturismo-s-mc-4374.jpg" alt="...">
+                                        <a href=""><img src="img/content/maserati-granturismo-s-mc-4374.jpg" alt="..."></a>
                                     </div>
                                 </div>
                                 <div class="caption">
@@ -187,7 +194,7 @@
                                 <div class="img-wrapper-main">
                                     <div class="img-wrapper">
                                         <span class="label label-danger">$26,500</span>
-                                        <img src="img/content/land-rover-dc100-sport-concept.jpg" alt="...">
+                                        <a href=""><img src="img/content/land-rover-dc100-sport-concept.jpg" alt="..."></a>
                                     </div>
                                 </div>
                                 <div class="caption">
@@ -204,16 +211,16 @@
                             <div class="thumbnail">
                                 <div class="img-wrapper-main">
                                     <div class="img-wrapper">
-                                        <img src="img/content/1970-dodge-coronet-coupe-dodzh.jpg" alt="...">
+                                        <a href=""><img src="img/content/1970-dodge-coronet-coupe-dodzh.jpg" alt="..."></a>
                                         <div class="img-mini">
                                             <div class="item-mini">
-                                                <img src="img/content/1970-dodge-coronet-coupe-dodzh.jpg" alt="">
+                                                <a href=""><img src="img/content/1970-dodge-coronet-coupe-dodzh.jpg" alt=""></a>
                                             </div>
                                             <div class="item-mini">
-                                                <img src="img/content/infiniti-qx70-5-0-6381.jpg" alt="">
+                                                <a href=""><img src="img/content/infiniti-qx70-5-0-6381.jpg" alt=""></a>
                                             </div>
                                             <div class="item-mini">
-                                                <img src="img/content/land-rover-dc100-sport-concept.jpg" alt="">
+                                                <a href=""><img src="img/content/land-rover-dc100-sport-concept.jpg" alt=""></a>
                                             </div>
                                         </div>
                                     </div>
@@ -232,7 +239,7 @@
                             <div class="thumbnail">
                                 <div class="img-wrapper-main">
                                     <div class="img-wrapper">
-                                        <img src="img/content/land-rover-dc100-sport-concept.jpg" alt="...">
+                                        <a href=""><img src="img/content/land-rover-dc100-sport-concept.jpg" alt="..."></a>
                                     </div>
                                 </div>
                                 <div class="caption">
@@ -276,22 +283,22 @@
                 <!--   Right Sidebar     -->
                 <div class="right-sidebar">
                     <div class="img-wrapper-sidebar">
-                        <img src="img/right-sidebar/transport-q-c-300-200-4.jpg" alt="some_img">
+                        <a href=""><img src="img/right-sidebar/transport-q-c-300-200-4.jpg" alt="some_img"></a>
                     </div>
                     <div class="img-wrapper-sidebar">
-                        <img src="img/right-sidebar/transport-q-c-300-200-6.jpg" alt="some_img">
+                        <a href=""><img src="img/right-sidebar/transport-q-c-300-200-6.jpg" alt="some_img"></a>
                     </div>
                     <div class="img-wrapper-sidebar">
-                        <img src="img/right-sidebar/transport-q-c-300-200-7.jpg" alt="some_img">
+                        <a href=""><img src="img/right-sidebar/transport-q-c-300-200-7.jpg" alt="some_img"></a>
                     </div>
                     <div class="img-wrapper-sidebar">
-                        <img src="img/right-sidebar/transport-q-c-300-200-8.jpg" alt="some_img">
+                        <a href=""><img src="img/right-sidebar/transport-q-c-300-200-8.jpg" alt="some_img"></a>
                     </div>
                     <div class="img-wrapper-sidebar">
-                        <img src="img/right-sidebar/transport-q-c-300-200-2.jpg" alt="some_img">
+                        <a href=""><img src="img/right-sidebar/transport-q-c-300-200-2.jpg" alt="some_img"></a>
                     </div>
                     <div class="img-wrapper-sidebar">
-                        <img src="img/content/1970-dodge-coronet-coupe-dodzh.jpg" alt="some_img">
+                        <a href=""><img src="img/content/1970-dodge-coronet-coupe-dodzh.jpg" alt="some_img"></a>
                     </div>
                 </div>
             </div>
