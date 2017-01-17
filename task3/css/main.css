@@ -7,8 +7,8 @@ body {
     position: relative;
     width: 100%;
     height: 100%;
-    /*background-color: #6b7e8d;*/
-    background: url(../img/mockup1.png) no-repeat center top;
+    background-color: #6b7e8d;
+    /*background: url(../img/mockup1.png) no-repeat center top;*/
 }
 
 .wrapper {
@@ -90,6 +90,11 @@ body {
 .icon-eject {
     display: inline-block;
     margin-right: 6px;
+}
+
+.icon-pencil {
+    display: inline-block;
+    margin-left: 3px;
 }
 
 /* NAVIGATION */
@@ -205,7 +210,7 @@ body {
 
 /* Block message*/
 .block-message {
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 }
 
 .block-message .message:nth-child(1) {
@@ -260,7 +265,7 @@ body {
 .media-body .msg-btn{
     border: none;
     margin-left: 3px;
-    width: 54px;
+    min-width: 54px;
     position: absolute;
     top: 10px;
 }
@@ -283,8 +288,27 @@ body {
     border: none;
 }
 
+.media-body .btn-success{
+    background-color: #abd25e;
+}
+
+.media-body .btn-success:hover {
+    background-color: #47a447;
+    border: none;
+}
+
 .text-blue {
     color: #6689a6;
+}
+
+.text-blue a {
+    color: #6689a6;
+    text-decoration: none;
+}
+
+.text-blue a:hover {
+    color: #4d667b;
+    text-decoration: none;
 }
 
 .text-dark {
@@ -302,9 +326,9 @@ body {
 /* Comments */
 .comment-group {
     width: 540px;
-    height: 27px;
     position: relative;
     top: -3px;
+    margin-bottom: 4px;
 }
 
 .comment-group .form-control, .comment-group button {
@@ -329,6 +353,21 @@ body {
     margin-right: 5px;
     position: relative;
     top: 2px;
+}
+
+.comment-field-group {
+    width: 100%;
+}
+
+
+.cf-border-radius {
+    border-radius: 4px !important;
+    height: 100% !important;
+}
+
+.cf-border-radius p {
+    /*margin: 0;*/
+    margin-bottom: 2px;
 }
 
 .comment-field::after {
