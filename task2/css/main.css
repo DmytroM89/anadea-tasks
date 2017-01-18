@@ -29,7 +29,7 @@ body {
     }
 }
 
-/* HEADER */
+/*================================================= HEADER ====================================================*/
 .navbar {
     min-height: 40px;
     margin-bottom: 27px;
@@ -98,4 +98,59 @@ body {
     display: inline-block;
     margin-right: 6px;
 }
+
+
+/*================================== Sidebar ==================================*/
+.sidebar-wrapper {
+    padding-left: 40px;
+}
+
+
+.sidebar {
+    display: block;
+    overflow-x: hidden;
+    overflow-y: auto;
+    z-index: 1000;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+    padding: 0;
+    min-width: 220px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.sidebar ul>li>a {
+    color: #bedef8;
+    padding: 4px 15px;
+}
+
+.sidebar ul>li>a:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+    color: #fff;
+}
+
+.text-block-wrapper {
+    padding-left: 30px;
+}
+
+.text-block {
+    width: 90%;
+}
+
+.text-block h3 {
+    margin-top: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #666;
+}
+
+.text-head, .text-body {
+    padding-left: 40px;
+}
+
+.text-body {
+    padding-top: 25px;
+    padding-right: 50px;
+}
+
 
