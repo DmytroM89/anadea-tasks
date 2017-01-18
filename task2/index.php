@@ -36,7 +36,7 @@
                     </div>
 
                 </div>
-                <div class="col-md-3 sidebar-wrapper">
+                <div class="col-md-3 hidden-xs hidden-sm sidebar-wrapper">
                     <div class="nav nav-sidebar sidebar affix">
                         <ul class="nav sidebar-list">
                             <li><a href="">Company</a></li>
